@@ -1,0 +1,431 @@
+{
+  "format": "kairos-card-terms",
+  "version": 1,
+  "rev": 1,
+  "updated": "2026-11-11",
+  "cards": [
+    {
+      "k": "csp",
+      "rev": 1,
+      "name": "Chase Sapphire Preferred",
+      "issuer": "Chase",
+      "fee": 95,
+      "unit": "points",
+      "program": "Chase Ultimate Rewards",
+      "rates": {
+        "dining": 3,
+        "streaming": 3,
+        "travel": 2,
+        "other": 1
+      },
+      "credits": [
+        {
+          "name": "Hotel credit, Chase Travel",
+          "amount": 50,
+          "period": "annual"
+        }
+      ],
+      "seen": "Oct 2026",
+      "note": "5x on Chase Travel bookings and 3x on online groceries are not counted here.",
+      "sources": []
+    },
+    {
+      "k": "csr",
+      "rev": 1,
+      "name": "Chase Sapphire Reserve",
+      "issuer": "Chase",
+      "fee": 795,
+      "unit": "points",
+      "program": "Chase Ultimate Rewards",
+      "rates": {
+        "travel": 4,
+        "dining": 3,
+        "other": 1
+      },
+      "credits": [
+        {
+          "name": "Travel credit",
+          "amount": 300,
+          "period": "annual"
+        }
+      ],
+      "seen": "Oct 2026",
+      "note": "4x is for flights and hotels booked direct; 8x on Chase Travel is not counted. This card has more credits: add yours from the issuer's benefits page.",
+      "sources": []
+    },
+    {
+      "k": "cfu",
+      "rev": 1,
+      "name": "Chase Freedom Unlimited",
+      "issuer": "Chase",
+      "fee": 0,
+      "unit": "cash",
+      "rates": {
+        "dining": 3,
+        "drugstore": 3,
+        "other": 1.5
+      },
+      "credits": [],
+      "sources": []
+    },
+    {
+      "k": "plat",
+      "rev": 2,
+      "name": "Amex Platinum",
+      "issuer": "American Express",
+      "fee": 895,
+      "unit": "points",
+      "program": "Amex Membership Rewards",
+      "rates": {
+        "travel": 5,
+        "other": 1
+      },
+      "credits": [
+        {
+          "name": "Hotel credit, Fine Hotels + Resorts or The Hotel Collection",
+          "amount": 300,
+          "period": "semiannual",
+          "how": "Prepaid bookings through Amex Travel.",
+          "m": "hotel|fhr|fine hotels"
+        },
+        {
+          "name": "Resy credit",
+          "amount": 100,
+          "period": "quarterly",
+          "enroll": true,
+          "how": "Eligible U.S. Resy restaurants.",
+          "m": "resy"
+        },
+        {
+          "name": "lululemon credit",
+          "amount": 75,
+          "period": "quarterly",
+          "enroll": true,
+          "how": "U.S. lululemon stores and online.",
+          "m": "lululemon"
+        },
+        {
+          "name": "Uber Cash",
+          "amount": 15,
+          "period": "monthly",
+          "how": "Add the card to your Uber account; it loads in the Uber app. December adds $20."
+        },
+        {
+          "name": "Walmart+ credit",
+          "amount": 12.95,
+          "period": "monthly",
+          "how": "Pay for a monthly Walmart+ membership with the card.",
+          "m": "walmart"
+        },
+        {
+          "name": "Airline fee credit",
+          "amount": 200,
+          "period": "annual",
+          "how": "Choose one airline in your Amex account. Covers incidental fees, not tickets.",
+          "m": "airline|incidental"
+        },
+        {
+          "name": "CLEAR+ credit",
+          "amount": 219,
+          "period": "annual",
+          "how": "An auto-renewing CLEAR+ membership paid with the card.",
+          "m": "\\bclear"
+        },
+        {
+          "name": "Uber One credit",
+          "amount": 120,
+          "period": "annual",
+          "how": "An auto-renewing Uber One membership paid with the card.",
+          "m": "uber one"
+        },
+        {
+          "name": "Oura credit",
+          "amount": 200,
+          "period": "annual",
+          "enroll": true,
+          "how": "An Oura Ring bought with the card.",
+          "m": "oura"
+        }
+      ],
+      "perks": [
+        {
+          "name": "Airport lounges: Centurion and the Global Lounge Collection",
+          "how": "Priority Pass lounges need enrolling.",
+          "enroll": true
+        },
+        {
+          "name": "Hilton Honors Gold status",
+          "enroll": true
+        },
+        {
+          "name": "Marriott Bonvoy Gold Elite status"
+        },
+        {
+          "name": "Leaders Club Sterling status",
+          "enroll": true
+        },
+        {
+          "name": "Avis, Hertz and National rental status",
+          "enroll": true
+        },
+        {
+          "name": "Global Entry ($120) or TSA PreCheck (up to $85) fee credit",
+          "how": "Once every four years."
+        },
+        {
+          "name": "Cell phone protection",
+          "how": "Up to $800 a claim, two a year, $50 deductible, when the phone bill is paid with the card."
+        },
+        {
+          "name": "Trip delay, cancellation and interruption cover"
+        },
+        {
+          "name": "Purchase, return and extended warranty protection"
+        },
+        {
+          "name": "No foreign transaction fees"
+        }
+      ],
+      "seen": "Nov 2026, from Amex's own card page",
+      "note": "5x is for flights booked direct or through Amex Travel (up to $500,000 a year) and prepaid hotels through Amex Travel; other travel earns 1x. One subscription-service credit is not listed here; add it below if you use it.",
+      "sources": [
+        "https://www.americanexpress.com/us/credit-cards/card/platinum/"
+      ]
+    },
+    {
+      "k": "gold",
+      "rev": 2,
+      "name": "Amex Gold",
+      "issuer": "American Express",
+      "fee": 325,
+      "unit": "points",
+      "program": "Amex Membership Rewards",
+      "rates": {
+        "dining": 4,
+        "groceries": 4,
+        "travel": 3,
+        "other": 1
+      },
+      "caps": {
+        "dining": 50000,
+        "groceries": 25000
+      },
+      "credits": [
+        {
+          "name": "Dining credit",
+          "amount": 10,
+          "period": "monthly",
+          "enroll": true,
+          "how": "Grubhub, Seamless, Five Guys, Buffalo Wild Wings, The Cheesecake Factory or Wonder.",
+          "m": "dining|grubhub|seamless|five guys|buffalo wild|cheesecake|wonder"
+        },
+        {
+          "name": "Uber Cash",
+          "amount": 10,
+          "period": "monthly",
+          "how": "Add the card to your Uber account; it loads in the Uber app."
+        },
+        {
+          "name": "Resy credit",
+          "amount": 50,
+          "period": "semiannual",
+          "enroll": true,
+          "how": "Eligible U.S. Resy restaurants; January to June, then July to December.",
+          "m": "resy"
+        },
+        {
+          "name": "Dunkin' credit",
+          "amount": 7,
+          "period": "monthly",
+          "enroll": true,
+          "how": "U.S. Dunkin' locations.",
+          "m": "dunkin"
+        }
+      ],
+      "perks": [
+        {
+          "name": "The Hotel Collection: $100 credit on stays of two nights or more",
+          "how": "Booked through Amex Travel."
+        },
+        {
+          "name": "Hertz Five Star status",
+          "enroll": true
+        },
+        {
+          "name": "Trip delay cover and baggage insurance"
+        },
+        {
+          "name": "Purchase protection and extended warranty"
+        },
+        {
+          "name": "No foreign transaction fees"
+        }
+      ],
+      "seen": "Nov 2026, from Amex's own card page",
+      "note": "4x at restaurants on up to $50,000 a year and at U.S. supermarkets on up to $25,000 a year, then 1x. 3x is for flights booked direct or through Amex Travel; prepaid hotels through Amex Travel earn 5x.",
+      "sources": [
+        "https://www.americanexpress.com/us/credit-cards/card/gold-card/"
+      ]
+    },
+    {
+      "k": "bcp",
+      "rev": 2,
+      "name": "Blue Cash Preferred",
+      "issuer": "American Express",
+      "fee": 95,
+      "unit": "cash",
+      "rates": {
+        "groceries": 6,
+        "streaming": 6,
+        "gas": 3,
+        "transit": 3,
+        "other": 1
+      },
+      "caps": {
+        "groceries": 6000
+      },
+      "credits": [],
+      "perks": [
+        {
+          "name": "Purchase protection, up to $1,000 an item"
+        },
+        {
+          "name": "Return protection and extended warranty"
+        },
+        {
+          "name": "Car rental damage cover (secondary)"
+        }
+      ],
+      "seen": "Nov 2026, from Amex's own card page",
+      "note": "6% at U.S. supermarkets on the first $6,000 a year, then 1%. The fee is $0 the first year. One subscription-service credit is not listed here; add it below if you use it.",
+      "sources": [
+        "https://www.americanexpress.com/us/credit-cards/card/blue-cash-preferred/"
+      ]
+    },
+    {
+      "k": "bce",
+      "rev": 2,
+      "name": "Blue Cash Everyday",
+      "issuer": "American Express",
+      "fee": 0,
+      "unit": "cash",
+      "rates": {
+        "groceries": 3,
+        "gas": 3,
+        "online": 3,
+        "other": 1
+      },
+      "caps": {
+        "groceries": 6000,
+        "gas": 6000,
+        "online": 6000
+      },
+      "credits": [],
+      "seen": "Nov 2026, from Amex's own card page",
+      "note": "Each 3% category applies to the first $6,000 a year, then 1%.",
+      "sources": [
+        "https://www.americanexpress.com/us/credit-cards/card/blue-cash-everyday/"
+      ]
+    },
+    {
+      "k": "vx",
+      "rev": 1,
+      "name": "Capital One Venture X",
+      "issuer": "Capital One",
+      "fee": 395,
+      "unit": "points",
+      "program": "Capital One Miles",
+      "rates": {
+        "other": 2
+      },
+      "credits": [
+        {
+          "name": "Capital One Travel credit",
+          "amount": 300,
+          "period": "annual"
+        }
+      ],
+      "seen": "Sep 2026",
+      "note": "10x hotels and 5x flights through Capital One Travel are not counted here.",
+      "sources": []
+    },
+    {
+      "k": "ven",
+      "rev": 1,
+      "name": "Capital One Venture",
+      "issuer": "Capital One",
+      "fee": 95,
+      "unit": "points",
+      "program": "Capital One Miles",
+      "rates": {
+        "other": 2
+      },
+      "credits": [],
+      "seen": "Sep 2026",
+      "sources": []
+    },
+    {
+      "k": "savor",
+      "rev": 1,
+      "name": "Capital One Savor",
+      "issuer": "Capital One",
+      "fee": 0,
+      "unit": "cash",
+      "rates": {
+        "dining": 3,
+        "groceries": 3,
+        "streaming": 3,
+        "other": 1
+      },
+      "credits": [],
+      "sources": []
+    },
+    {
+      "k": "strata",
+      "rev": 1,
+      "name": "Citi Strata Premier",
+      "issuer": "Citi",
+      "fee": 95,
+      "unit": "points",
+      "program": "Citi ThankYou",
+      "rates": {
+        "travel": 3,
+        "dining": 3,
+        "groceries": 3,
+        "gas": 3,
+        "other": 1
+      },
+      "credits": [],
+      "seen": "Sep 2026",
+      "sources": []
+    },
+    {
+      "k": "dc",
+      "rev": 1,
+      "name": "Citi Double Cash",
+      "issuer": "Citi",
+      "fee": 0,
+      "unit": "cash",
+      "rates": {
+        "other": 2
+      },
+      "credits": [],
+      "seen": "Sep 2026",
+      "note": "1% when you buy and 1% as you pay.",
+      "sources": []
+    },
+    {
+      "k": "wfac",
+      "rev": 1,
+      "name": "Wells Fargo Active Cash",
+      "issuer": "Wells Fargo",
+      "fee": 0,
+      "unit": "cash",
+      "rates": {
+        "other": 2
+      },
+      "credits": [],
+      "sources": []
+    }
+  ]
+}
