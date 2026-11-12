@@ -33,6 +33,7 @@ The card terms the Kairos iPhone app reads: earning rates, annual fees, statemen
 | `caps` | Yearly spend after which a category earns the `other` rate. |
 | `credits` | `name`, `amount`, `period` (monthly, quarterly, semiannual, annual), `enroll`, `how`, and `m`: words that appear in the statement credit's description, joined with `\|`. |
 | `perks` | Other benefits, with `enroll` when they need enrolling. |
+| `protect` | Purchase cover windows: `purchase` (days covered against damage and theft), `return` (days the card refunds a return the store refuses), `warranty` (extra years added to a manufacturer's warranty). Leave a part out if the card does not offer it. |
 | `seen`, `sources` | When and where the terms were checked. |
 
 ## Content rule

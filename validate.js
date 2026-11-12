@@ -83,6 +83,14 @@ function checkTerms(feed) {
         if (p.enroll !== undefined && typeof p.enroll !== "boolean") fail(w, "enroll must be true or false");
       });
     }
+    if (c.protect !== undefined) {
+      if (!c.protect || typeof c.protect !== "object" || Array.isArray(c.protect)) fail(at, "protect must be an object");
+      else {
+        if (c.protect.purchase !== undefined && !num(c.protect.purchase, 0, 365)) fail(at, "protect.purchase must be 0 to 365 days");
+        if (c.protect.return !== undefined && !num(c.protect.return, 0, 365)) fail(at, "protect.return must be 0 to 365 days");
+        if (c.protect.warranty !== undefined && !num(c.protect.warranty, 0, 5)) fail(at, "protect.warranty must be 0 to 5 years");
+      }
+    }
     if (!optStr(c.seen, 60)) fail(at, "seen is up to 60 characters");
     if (!optStr(c.note, 600)) fail(at, "note is up to 600 characters");
     if (c.sources !== undefined && (!Array.isArray(c.sources) || c.sources.some(u => !/^https:\/\/[^\s]{4,300}$/.test(String(u)))))
