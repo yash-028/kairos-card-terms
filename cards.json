@@ -1,8 +1,8 @@
 {
   "format": "kairos-card-terms",
   "version": 1,
-  "rev": 1,
-  "updated": "2026-11-11",
+  "rev": 2,
+  "updated": "2026-11-12",
   "cards": [
     {
       "k": "csp",
@@ -70,7 +70,7 @@
     },
     {
       "k": "plat",
-      "rev": 2,
+      "rev": 3,
       "name": "Amex Platinum",
       "issuer": "American Express",
       "fee": 895,
@@ -186,6 +186,11 @@
           "name": "No foreign transaction fees"
         }
       ],
+      "protect": {
+        "purchase": 90,
+        "return": 90,
+        "warranty": 1
+      },
       "seen": "Nov 2026, from Amex's own card page",
       "note": "5x is for flights booked direct or through Amex Travel (up to $500,000 a year) and prepaid hotels through Amex Travel; other travel earns 1x. One subscription-service credit is not listed here; add it below if you use it.",
       "sources": [
@@ -194,7 +199,7 @@
     },
     {
       "k": "gold",
-      "rev": 2,
+      "rev": 3,
       "name": "Amex Gold",
       "issuer": "American Express",
       "fee": 325,
@@ -261,6 +266,10 @@
           "name": "No foreign transaction fees"
         }
       ],
+      "protect": {
+        "purchase": 90,
+        "warranty": 1
+      },
       "seen": "Nov 2026, from Amex's own card page",
       "note": "4x at restaurants on up to $50,000 a year and at U.S. supermarkets on up to $25,000 a year, then 1x. 3x is for flights booked direct or through Amex Travel; prepaid hotels through Amex Travel earn 5x.",
       "sources": [
@@ -269,7 +278,7 @@
     },
     {
       "k": "bcp",
-      "rev": 2,
+      "rev": 3,
       "name": "Blue Cash Preferred",
       "issuer": "American Express",
       "fee": 95,
@@ -296,6 +305,11 @@
           "name": "Car rental damage cover (secondary)"
         }
       ],
+      "protect": {
+        "purchase": 90,
+        "return": 90,
+        "warranty": 1
+      },
       "seen": "Nov 2026, from Amex's own card page",
       "note": "6% at U.S. supermarkets on the first $6,000 a year, then 1%. The fee is $0 the first year. One subscription-service credit is not listed here; add it below if you use it.",
       "sources": [
